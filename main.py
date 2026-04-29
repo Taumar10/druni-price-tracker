@@ -116,6 +116,7 @@ def price_from_jsonld(soup: BeautifulSoup) -> Optional[float]:
                 offers = item.get("offers")
                 if isinstance(offers, dict):
                     price = offers.get("price") or offers.get("lowPrice")
+                    print(f"{name} 当前价格: {price}")
                     parsed = parse_price(str(price))
                     if parsed is not None:
                         return parsed
