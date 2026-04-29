@@ -1,0 +1,3 @@
+name,url,target_price
+# 示例：把下面 URL 换成你真正想监控的 Druni 商品链接，target_price 可留空
+Producto ejemplo,https://www.druni.es/,
